@@ -1,0 +1,14 @@
+name: Code
+
+on: 
+  push: 
+
+    Jobs: 
+      code-checkout: 
+        runs-on: ubuntu-latest
+        steps: 
+          - name: Clone the code
+            uses: actions/checkout@v7
+
+          - name: test
+            run: echo "This is my first repo" 
