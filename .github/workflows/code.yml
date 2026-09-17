@@ -3,7 +3,7 @@ name: Code
 on: 
   push: 
 
-    Jobs: 
+    jobs: 
       code-checkout: 
         runs-on: ubuntu-latest
         steps: 
